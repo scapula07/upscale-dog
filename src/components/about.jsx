@@ -4,15 +4,15 @@ import about from "../assets/about.png"
 export default function About() {
   return (
     <div className='py-16 px-20'>
-        <div className='flex space-x-8 ' style={{background:"F6F3F3"}}>
-            <div className=' w-1/2 '>
+        <div className='flex space-x-8 lg:block hidden ' style={{background:"F6F3F3"}}>
+            <div className=' w-1/2 lg:block hidden'>
                 <img 
                   src={about}
                 />
 
 
             </div>
-            <div className='flex flex-col w-1/2 space-y-4'>
+            <div className='flex flex-col w-1/2 space-y-4 lg:block hidden'>
                 <h5 className='text-2xl font-semibold'> About us</h5>
                 <div className='text-sm'>
                     <p>
