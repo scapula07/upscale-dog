@@ -64,7 +64,7 @@ function App() {
           </div>
 
 
-          <div className=''>
+          <div className='lg:hidden block'>
               <MobileAbout />
 
               <div className='w-full py-4 px-4'>
